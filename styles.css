@@ -4,19 +4,23 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: f4f4f4;
-    color: #3b3b3b;
-    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
     margin: 0;
     padding: 0;
 }
 
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
 header {
-    background-color: 0033cc; /* Синий цвет, символизирующий Израиль */
+    background-color: #0033cc; /* Синий цвет, символизирующий Израиль */
     color: #ecf0f1;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
-    position: relative;
 }
 
 h1 {
@@ -43,7 +47,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: ffcc00; /* Золотой цвет для наведения */
+    color: #ffcc00; /* Золотой цвет для наведения */
 }
 
 .hero {
@@ -53,18 +57,18 @@ nav ul li a:hover {
     color: #fff;
     padding: 60px 20px;
     text-align: center;
-    border-bottom: 5px solid ffcc00; /* Золотая линия для элегантности */
+    border-bottom: 5px solid #ffcc00; /* Золотая линия для элегантности */
 }
 
 h2 {
     font-family: 'Playfair Display', serif;
-    color: 00509e; /* Темно-синий цвет */
+    color: #00509e; /* Темно-синий цвет */
     margin-top: 0;
 }
 
 section {
     padding: 40px 20px;
-    margin: 20px;
+    margin: 20px 0;
     border: 1px solid #bdc3c7;
     border-radius: 10px;
     background-color: #fff;
