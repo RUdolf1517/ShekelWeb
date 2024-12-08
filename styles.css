@@ -57,14 +57,15 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
-    z-index: 1; /* На переднем плане */
+.hero-image {
+    width: 100%; /* Изображение занимает 100% ширины контейнера */
+    max-width: 600px; /* Максимальная ширина для больших экранов */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    border-radius: 10px; /* Закругленные углы */
+    margin: 20px 0; /* Отступы сверху и снизу */
+    display: block; /* Отображаем изображение как блочный элемент */
+    margin-left: auto; /* Центрируем изображение */
+    margin-right: auto; /* Центрируем изображение */
 }
 
 .hero-image {
