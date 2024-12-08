@@ -51,18 +51,24 @@ nav ul li a:hover {
 }
 
 .hero {
-    background-image: url('https://example.com/your-image.jpg'); /* Замените на реальный URL изображения */
-    background-size: cover;
-    background-position: center;
+    background-color: #00509e; /* Темно-синий цвет для фона */
     color: #fff;
     padding: 60px 20px;
     text-align: center;
     border-bottom: 5px solid #ffcc00; /* Золотая линия для элегантности */
 }
 
+.hero-image {
+    width: 80%; /* Ширина изображения */
+    max-width: 600px; /* Максимальная ширина для больших экранов */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    border-radius: 10px; /* Закругленные углы */
+    margin-top: 20px; /* Отступ сверху */
+}
+
 h2 {
     font-family: 'Playfair Display', serif;
-    color: #00509e; /* Темно-синий цвет */
+    color: #ffcc00; /* Золотой цвет для заголовков */
     margin-top: 0;
 }
 
