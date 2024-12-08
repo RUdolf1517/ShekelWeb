@@ -52,7 +52,7 @@ nav ul li a:hover {
 
 .hero {
     position: relative; /* Для позиционирования наложения */
-    color: #fff;
+    color: #ffcc00;
     padding: 60px 20px;
     text-align: center;
 }
